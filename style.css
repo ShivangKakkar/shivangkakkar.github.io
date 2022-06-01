@@ -1,0 +1,45 @@
+:root {
+  --color-1: #2b88f0;
+  --color-2: #8647A3;
+  --color-3: #976ADB;
+  --color-4: #5B67DB;
+  --color-5: #9A66D9;
+  --color-6: #685BE9;
+  --color-7: #5754ECB3;
+  --nav-color: #ff7979;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+  background-color: var(--color-1);
+}
+
+nav {
+  background-color: var(--color-2);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  padding: 5px 40px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
