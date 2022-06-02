@@ -30,6 +30,7 @@ nav {
 
 nav ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 nav li {
@@ -42,4 +43,13 @@ nav a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+  nav a {
+    font-size: 11px;
+  }
+  nav li {
+    padding: 0 5px;
+  }
 }
