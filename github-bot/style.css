@@ -45,7 +45,7 @@ a:visited {
 }
 
 .links li {
-    padding: 0 10px;
+    padding: 10px;
     text-align: center;
     border: #000 solid 1px;
 }
